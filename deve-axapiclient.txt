@@ -1,0 +1,15 @@
+#   libcurl
+    #   The dependence header files are in "inc/curl" folder
+    #   Download static library "curllib.lib"
+    #   It also needs following dll files to execute program. These files should be put in the same folder as the execute file.
+        #   openssl-0.9.8g
+            #   libeay32.dll
+            #   libsasl.dll
+            #   ssleay32.dll
+        #   openldap.dll
+        #   curllib.dll
+#   jansson
+    #   The dependence header files must be put in the folder which in the search list of complier.
+    #   static library: jansson.lib
+    #   dynamic library: jansson.dll
+    
